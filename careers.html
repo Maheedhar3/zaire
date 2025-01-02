@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaire Systems</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+    <link rel="stylesheet" href="careers.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="flex-row-acb">
+        <a href="home.html">
+          <div class="zaire">
+            <span class="z">Z</span><span class="aire">AIRE</span><span class="z">s</span><span class="ystems">ystems</span>
+          </div>
+          </a>
+        <div class="regroup">
+          <a class="nav_content" href="company.html">Company</a>
+          <a class="nav_content" href="it.html">IT Services</a>
+          <a class="nav_content" href="staffing.html">Staffing Services</a>
+          <a class="nav_content" href="#">Product</a>
+          <a class="nav_content" href="careers.html">Careers</a>
+          <a class="nav_content" href="contact us.html">Contact Us</a>
+        </div>
+      </div>
+      <div class="rectangle">
+        <button class="rectangle-1">
+          <span class="comming-soon">Comming Soon</span></button
+        ><span class="notice-from-us">Notice from us</span
+        ><span class="our-products-page"
+          >Our products page is currently under construction. Please check back
+          soon for updates!</span
+        >
+      </div>
+        <div class="flex-row-dfd">
+          <div class="groupbu" id="toggle"></div>
+          <span class="light">Light</span><span class="dark">Dark</span>
+      </div>
+      <div class="vector">
+        <div class="discover-your-potential-with-zaire">
+          <span class="discover-potential"
+            >Discover <br />Your Potential <br />with </span
+          ><span class="zaire-2">ZAIRE</span>
+        </div>
+      </div>
+      <span class="talented-passionate-innovative"
+        >Our biggest strengths resides in the people who work here-this way, we
+        can bring some of the most talented and passionate people into the
+        organization so it stays innovative and excellent. To grow your career
+        in a truly inspiring organization like this, view job openings now,
+        apply today, and succeed together!</span
+      >
+      <div class="alert-box" id="alert"></div>
+      <div class="no-openings">
+        <span class="no">NO </span><span class="openings">OPENINGS</span
+        ><span class="no-3"> <br />FOR NOW</span>
+      </div>
+      <span class="future-opportunities"
+        >Thank you for your interest in joining Zaire Systems! Currently, we do
+        not have any open positions available. However, we are always on the
+        lookout for talented individuals to join our team.<br />We encourage you
+        to check back periodically for updates on any future opportunities. In
+        the meantime, feel free to follow us on social media and stay connected
+        to our journey.<br />Thank you for considering Ignis Services as a
+        potential employer. We look forward to connecting with you soon!</span
+      ><span class="happy-clients">Our Happy Clients</span>
+      <div class="flex-row-b">
+        <div class="image" id="jpm"></div>
+        <div class="image-4" id="ibm"></div>
+        <div class="image-5" id="tata"></div>
+      </div>
+      <div class="rectangle-6">
+        <span class="privacy-policy">Privacy Policy </span
+        ><span class="all-rights-reserved"
+          >All Rights Reserved @ zaire systems 2024</span
+        >
+        <div class="zaire-7">
+          <span class="z-8">Z</span><span class="aire-9">AIRE</span>
+          <span class="s-b">s</span><span class="ystems-c">ystems</span>
+        </div>
+        <span class="reach-us">Reach Us</span
+        ><span class="services">Services </span><span class="links">Links</span
+        ><span class="actionable-solutions"
+          >Through highly actionable solutions at Zaire Systems, we help our
+          businesses significantly generate substantial value. High-end
+          technologies that can instantly be rolled out provide engagement
+          strategy refinements and ultimately increase revenues while uplifting
+          users. We highly value understanding your needs as well as providing
+          the right stimulus to build best-value solutions efficiently.</span
+        ><span class="company-d">Company</span
+        ><span class="it-services-e">IT Services</span
+        ><span class="linked-in">linked_in</span
+        ><span class="instagram">@instagram</span
+        ><span class="staffing-services-f">Staffing Services </span
+        ><span class="product-10">Product</span
+        ><span class="youtube">Youtube</span
+        ><span class="careers-11">Careers</span
+        ><span class="facebook">facebook</span
+        ><span class="contact">Contact</span
+        ><span class="twitter">Twitter </span>
+      </div>
+    </div>
+    <script>
+      var toggle = document.getElementById("toggle");
+      var jpm = document.getElementById("jpm");
+      var ibm = document.getElementById("ibm");
+      var tata = document.getElementById("tata");
+      var alert = document.getElementById("alert");
+    toggle.onclick = function(){
+        document.body.classList.toggle("dark_theme");
+        if(document.body.classList.contains("dark_theme")){
+            toggle.style.backgroundImage = "url('./assets/images/1cafc98c-e92b-485e-be46-c6c9e8569b8b-d.png')";
+            jpm.style.backgroundImage = "url('./assets/images/jpm-d.png')";
+            ibm.style.backgroundImage = "url('./assets/images/ibm-d.png')";
+            tata.style.backgroundImage= "url('./assets/images/tata-d.png')";
+            alert.style.backgroundImage= "url('/assets/images/5a3b543f-79f2-4f9b-b40a-5c5c47cace20-d.png')";
+        }
+        else{
+            toggle.style.backgroundImage = "url('./assets/images/1cafc98c-e92b-485e-be46-c6c9e8569b8b.png')";
+            jpm.style.backgroundImage = "url('./assets/images/jpm.png')";
+            ibm.style.backgroundImage = "url('./assets/images/ibm.png')";
+            tata.style.backgroundImage= "url('./assets/images/tata.png')";
+            alert.style.backgroundImage= "url('/assets/images/5a3b543f-79f2-4f9b-b40a-5c5c47cace20.png')";
+        }
+    }
+    </script>
+  </body>
+</html>
